@@ -31,3 +31,15 @@ void input()
         cin >> a[i];
     }
 }
+
+void display()
+{
+    cout << "===========================" << endl;
+    cout << "Elemen Array Telah Terurut" << endl;
+    cout << "==========================" << endl;
+
+    for (int i = 0; i < n; i++)
+    {
+        cout << "Data Ke-" << i << ": " << a[i] << endl;
+    }
+}
