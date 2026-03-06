@@ -20,4 +20,14 @@ void input()
             cout << "Error :Maksimal Input Array Adalah 20\n" << endl;
         }
     }
+
+    cout << "=====================" << endl;
+    cout << "Masukkan Elemen Array" << endl;
+    cout << "=====================" << endl;
+
+    for (int i = 0; i < n; i++)
+    {
+        cout << "Masukkan Nilai Ke-" << (i + 1) << ": ";
+        cin >> a[i];
+    }
 }
